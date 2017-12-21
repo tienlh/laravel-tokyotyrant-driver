@@ -1,0 +1,16 @@
+{
+    "name": "tienlh/laravel-tokyotyrant-driver",
+    "description": "Laravel Tokyo Tyrant Driver",
+    "authors": [
+        {
+            "name": "Le Huu Tien",
+            "email": "lehuutien1996@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+    	"psr-4": {
+    		"Tienlh\\Session": "src/"
+    	}
+    }
+}
