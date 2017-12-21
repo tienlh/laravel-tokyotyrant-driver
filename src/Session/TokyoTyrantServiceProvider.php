@@ -3,6 +3,7 @@
 namespace Tienlh\Session;
 
 use Illuminate\Support\ServiceProvider;
+use Tienlh\Session\Handler;
 
 class TokyoTyrantServiceProvider extends ServiceProvider
 {
@@ -15,7 +16,7 @@ class TokyoTyrantServiceProvider extends ServiceProvider
     public function register()
     {
         $this->app['session']->extend('tokyo_tyrant', function ($app) {
-            return '';
+            return new Handler(config('tokyo_tyrant'));
         });
     }
 }
