@@ -1,6 +1,6 @@
 <?php
 
-namespace Tienlh\Session;
+namespace Tienlh\TokyoTyrantDriver\Session;
 
 class TokyoTyrantHandler implements \SessionHandlerInterface
 {
